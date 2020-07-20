@@ -9,21 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/SaveTheAliens.unity
     guid: deae4be8fd00ed7449dec9d8801f9440
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 16bc7cedee9a8fb4f9e6131fe375a884
+    path: Assets/Scenes/Level1 - Tutorial.unity
+    guid: 98af610523767754ca13456ce4ba5391
   - enabled: 1
     path: Assets/Scenes/Level2.unity
+    guid: 16bc7cedee9a8fb4f9e6131fe375a884
+  - enabled: 1
+    path: Assets/Scenes/Level3 - Search.unity
+    guid: 68903a32cda323a41ac36f5d41231f8d
+  - enabled: 1
+    path: Assets/Scenes/Level4 - FieldTutorial.unity
+    guid: 7b8855c876e63d14cb0b660dc050356f
+  - enabled: 1
+    path: Assets/Scenes/Level5 - Search Redux.unity
     guid: e1f4ecdcceeb6eb459e546618f319a6f
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
+    path: Assets/Scenes/Level6 - PortalTutorial.unity
     guid: df295cdd83e68c94a90e11dbadb0073b
-  - enabled: 0
-    path: Assets/Scenes/Menu.unity
-    guid: d98f99c8cf4ddcb4aac060c9342011ba
-  - enabled: 0
-    path: Assets/Scenes/LauTestingScene.unity
-    guid: 9d9127d0d3a9fdd43a5dca982efb246b
-  - enabled: 0
-    path: Assets/Scenes/MainGame.unity
-    guid: 25ed4dedb591d234e88e1495cb8fe149
+  - enabled: 1
+    path: Assets/Scenes/Level7 - MultiplePortals.unity
+    guid: 8ecd86075cd4c894eb58c74f69ac40a3
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: 9eada45358119554a8ded267ca98fc99
   m_configObjects: {}

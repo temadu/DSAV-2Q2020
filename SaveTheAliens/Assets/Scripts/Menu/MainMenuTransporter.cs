@@ -26,6 +26,10 @@ public class MainMenuTransporter : MonoBehaviour
 
   public void LoadGame(int levelNum)
   {
+    foreach (var meteor in GameObject.FindGameObjectsWithTag("Meteor"))
+    {
+      meteor.GetComponent<InstanciateObjectOnDestroy>().isQuitting = true;
+    }
     SceneManager.LoadScene(levelNum);
   }
 

@@ -13,7 +13,17 @@ public class TransporterShipCollisionDetection : MonoBehaviour {
     private int inPortal = 0;
 
     private void Start() {
-        
+      if(this.hitSound == null)
+        this.hitSound = GameObject.Find("Crash").GetComponent<AudioSource>();
+
+      if (this.disconnectRopeSound == null)
+        this.disconnectRopeSound = GameObject.Find("ReleaseAlien").GetComponent<AudioSource>();
+
+      if (this.ballPickupSound == null)
+        this.ballPickupSound = GameObject.Find("GrabAlien").GetComponent<AudioSource>();
+
+      if (this.portalAudio == null)
+        this.portalAudio = GameObject.Find("Portal").GetComponent<AudioSource>();
     }
 
     void OnCollisionEnter2D(Collision2D other){

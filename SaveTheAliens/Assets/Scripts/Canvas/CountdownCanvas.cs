@@ -16,6 +16,15 @@ public class CountdownCanvas : MonoBehaviour
   public void Start(){
     Time.timeScale = 0;
     IsPlaying = true;
+    if (this.threeSound == null)
+      this.threeSound = GameObject.Find("3").GetComponent<AudioSource>();
+    if (this.twoSound == null)
+      this.twoSound = GameObject.Find("2").GetComponent<AudioSource>();
+    if (this.oneSound == null)
+      this.oneSound = GameObject.Find("1").GetComponent<AudioSource>();
+    if (this.goSound == null)
+      this.goSound = GameObject.Find("GO").GetComponent<AudioSource>();
+
   }
 
   public void Clean()

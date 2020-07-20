@@ -22,7 +22,11 @@ public class ShipMovementSimple : MonoBehaviour {
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
-        thrusterSound.Play();
+        
+        if(this.thrusterSound == null){
+          this.thrusterSound = GameObject.Find("Thruster").GetComponent<AudioSource>();
+          this.thrusterSound.Play();
+        }
     }
 
     void FixedUpdate()

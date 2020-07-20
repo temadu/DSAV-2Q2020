@@ -7,6 +7,12 @@ public class ShootLaserTransporter : MonoBehaviour {
     public KeyCode shootKey = KeyCode.Space;
     public AudioSource shootSound;
 
+    private void Start() {
+      if(this.shootSound == null){
+        this.shootSound = GameObject.Find("LaserShot").GetComponent<AudioSource>();
+      }
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(this.shootKey))

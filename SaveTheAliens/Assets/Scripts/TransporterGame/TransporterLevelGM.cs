@@ -35,10 +35,23 @@ public class TransporterLevelGM : MonoBehaviour
 
     isQuitting = false;
 
+    if (this.endLevelSound == null)
+      this.endLevelSound = GameObject.Find("EndLevel").GetComponent<AudioSource>();
+
     // this.countdown.SetActive(false);
     // this.Reset();
     // this.StartCountdown();
 
+  }
+  private void Update() {
+    if (Input.GetKey(KeyCode.R))
+    {
+      StartCoroutine("ResetLevel");
+    } else if (Input.GetKey(KeyCode.T))
+    {
+      endLevelSound.Play();
+      StartCoroutine("NextLevel");
+    }
   }
 
   public void Reset()
