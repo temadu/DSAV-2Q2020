@@ -3307,7 +3307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 186010958}
-  countdownAnim: {fileID: 0}
+  countdownAnim: {fileID: 199110577}
 --- !u!4 &1109210606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4162050720967806, guid: fad8e77d38f202946b261b46a6a6dec6,
@@ -7218,6 +7218,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_text
+      value: Rescue Zone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3649304206767044541, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}

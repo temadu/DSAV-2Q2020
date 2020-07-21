@@ -2515,22 +2515,22 @@ PrefabInstance:
     - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 52
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}
@@ -2540,7 +2540,7 @@ PrefabInstance:
     - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}
       propertyPath: m_text
-      value: Press space to shoot at the asteroids out of the way
+      value: Press space to shoot the asteroids out of the way
       objectReference: {fileID: 0}
     - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}
@@ -4128,6 +4128,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_text
+      value: Rescue Zone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649304206767044539, guid: eb993d583a0427240a34c1a57ba34ddb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3649304206767044541, guid: eb993d583a0427240a34c1a57ba34ddb,
         type: 3}
