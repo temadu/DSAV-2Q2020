@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_Pitch
       value: 1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 2362932041662719602, guid: 2f0672cfb62b4944f8a67b5db731da5d,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.08
+      objectReference: {fileID: 0}
     - target: {fileID: 6726855251871664783, guid: 2f0672cfb62b4944f8a67b5db731da5d,
         type: 3}
       propertyPath: borderColor.r
