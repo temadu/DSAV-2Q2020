@@ -19,6 +19,8 @@ public class TransporterLevelGM : MonoBehaviour
   public int nextLevel;
   public AudioSource endLevelSound;
 
+  public int aliens = 0;
+
   public bool isQuitting = false;
 
 
@@ -37,6 +39,8 @@ public class TransporterLevelGM : MonoBehaviour
 
     if (this.endLevelSound == null)
       this.endLevelSound = GameObject.Find("EndLevel").GetComponent<AudioSource>();
+
+    this.aliens = GameObject.FindGameObjectsWithTag("Ball").Length;
 
     // this.countdown.SetActive(false);
     // this.Reset();
@@ -132,6 +136,7 @@ public class TransporterLevelGM : MonoBehaviour
   public void checkWinCondition(){
     Debug.Log("Checking win");
     Debug.Log(GameObject.FindGameObjectsWithTag("Ball").Length);
+    this.aliens = GameObject.FindGameObjectsWithTag("Ball").Length - 1;
     if(GameObject.FindGameObjectsWithTag("Ball").Length == 1){
       endLevelSound.Play();
       StartCoroutine("NextLevel");
